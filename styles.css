@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+#mySForm{
+padding: 25px;
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+
+#mySInput_button{
+  display: flex;
+  align-items: baseline;
+  justify-content:space-evenly;
+}
+
+#mySinputText , #mySaddButton {
+  margin-left: 5px;
+} 
+
+
+#myShr{
+  color: black;
+  
+}
+
+#mySlistAreaFlex{
+display: flex;
+justify-content: center;
+
+}
+
+#mySlistArea{
+  border: 1.5px solid black;
+  height: 80vh;
+  width: 96vw;
+  padding: 10px;
+  
+}
+
+.myScardyo{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px black solid;
+ margin: 15px;
+}
+
+.myStextyo{
+width: 90%;
+}
+
+.text p{
+  word-wrap: break-word;
+}
+
+.mySbuttonyo{
+width: 10%;
+}
